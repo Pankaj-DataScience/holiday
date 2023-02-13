@@ -10,10 +10,10 @@ const { now } = require("moment");
 const { response } = require("express");
 //Create connectiuon 
 let con = mysql.createConnection({
-  host: "127.0.0.1",
-  user: "root",
-  password: "rian",
-  database: "holidayDB",
+  host: "10.0.5.138",
+  user: "sheetal1",
+  password: "Rian@2010",
+  database: "holidaydatabase",
   port: "3306",
   
 })
